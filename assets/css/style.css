@@ -6,7 +6,7 @@
     outline: none !important;
 }
 
-:root{
+:root {
     --primary-color: #FFCB15;
     --secondary-color: #9C9C9C;
     --aux-color: #878787;
@@ -28,6 +28,10 @@ body {
 
 .navbar .navbar-toggler-icon {
     color: #fff;
+}
+
+.navbar .nav-item a:hover {
+    color: #FFCB15 !important;
 }
 
 .custom-container {
@@ -136,6 +140,7 @@ btn {
     justify-content: space-around;
     align-items: center;
 }
+
 .card .money {
     background: #FFF;
     color: #000;
@@ -341,7 +346,9 @@ btn {
         flex-direction: column !important;
     }
 
-    .flexy .parent img, .shadow, .profile {
+    .flexy .parent img,
+    .shadow,
+    .profile {
         margin-left: auto;
         margin-right: auto;
     }
@@ -497,124 +504,124 @@ btn {
 }
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-     .top-section {
-         background: url(../images/Bg\ Image.png);
-         height: max-content;
-         background-repeat: no-repeat;
-         background-position: center;
-         background-size: cover;
-     }
+    .top-section {
+        background: url(../images/Bg\ Image.png);
+        height: max-content;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 
-     .top-section .nav {
-         background: inherit;
-     }
+    .top-section .nav {
+        background: inherit;
+    }
 
-     .hero-section {
-         margin-top: 70px;
-         padding: auto;
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-         text-align: center;
-     }
+    .hero-section {
+        margin-top: 70px;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
-     .hero-section a {
-         margin: 12px;
-         margin-bottom: 80px;
-     }
+    .hero-section a {
+        margin: 12px;
+        margin-bottom: 80px;
+    }
 
-     .aboutus-sec {
-         display: flex;
-         flex-direction: column;
-     }
+    .aboutus-sec {
+        display: flex;
+        flex-direction: column;
+    }
 
-     .profile-title h2 {
-         text-align: center;
-     }
+    .profile-title h2 {
+        text-align: center;
+    }
 
-     .parent,
-     .profile-title {
-         display: flex;
-         flex-direction: column;
-     }
+    .parent,
+    .profile-title {
+        display: flex;
+        flex-direction: column;
+    }
 
-     .parent img {
-         width: 320px;
-     }
+    .parent img {
+        width: 320px;
+    }
 
-     .newsletter {
-         background: #FFCB15;
-         height: max-content;
-         width: max-content;
-         margin: 120px;
-         margin-left: auto;
-         margin-right: auto;
-         border-radius: 20px;
-     }
+    .newsletter {
+        background: #FFCB15;
+        height: max-content;
+        width: max-content;
+        margin: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+    }
 
-     .newsletter .myInput {
-         width: fit-content;
-         margin-bottom: 50px;
-         margin-left: auto;
-         margin-right: auto;
-     }
+    .newsletter .myInput {
+        width: fit-content;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-     .myCards .inbuilt {
-         margin-top: 290px;
-     }
+    .myCards .inbuilt {
+        margin-top: 290px;
+    }
 
-     .booking-title {
-         display: flex;
-         justify-content: space-evenly;
-         padding: 12px;
-         margin: 30px;
-         margin-top: 40px;
-     }
+    .booking-title {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 12px;
+        margin: 30px;
+        margin-top: 40px;
+    }
 
-     .booking-title a {
-         width: max-content;
-         margin-top: 40px;
-         margin-left: 9px;
-         padding: auto;
-     }
+    .booking-title a {
+        width: max-content;
+        margin-top: 40px;
+        margin-left: 9px;
+        padding: auto;
+    }
 
-     .card .money {
-         width: max-content;
-     }
+    .card .money {
+        width: max-content;
+    }
 
-     .events a {
-         width: max-content;
-     }
+    .events a {
+        width: max-content;
+    }
 
-     .profile-title {
-         margin: auto;
-         margin-top: 20px;
-     }
+    .profile-title {
+        margin: auto;
+        margin-top: 20px;
+    }
 
-     .aboutus-sec .col {
-         display: flex;
-         flex-direction: column !important;
-     }
+    .aboutus-sec .col {
+        display: flex;
+        flex-direction: column !important;
+    }
 
-     .flexy .parent img,
-     .shadow,
-     .profile {
-         margin-left: auto;
-         margin-right: auto;
-     }
+    .flexy .parent img,
+    .shadow,
+    .profile {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-     .shadow {
-         position: absolute;
-         top: 30px;
-         left: 1px;
-     }
+    .shadow {
+        position: absolute;
+        top: 30px;
+        left: 1px;
+    }
 
-     .profile {
-         position: relative;
-         top: 0;
-         left: 4px;
-     }
+    .profile {
+        position: relative;
+        top: 0;
+        left: 4px;
+    }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
