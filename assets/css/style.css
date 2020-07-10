@@ -1,0 +1,981 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'montserrat';
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+:root{
+    --primary-color: #FFCB15;
+    --secondary-color: #9C9C9C;
+    --aux-color: #878787;
+    --text-color: #F6F6F6;
+    --font-type: 'montserrat';
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    font-family: 'montserrat';
+    font-size: 15px;
+    scroll-behavior: smooth !important;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-toggler-icon {
+    color: #fff;
+}
+
+.custom-container {
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.btn:hover {
+    color: #fff;
+    background: ease-out .1s;
+}
+
+btn {
+    font-weight: 500;
+    color: #000;
+}
+
+.header .navbar-light .navbar-nav .nav-link-black {
+    color: #fff !important;
+    font-size: 16px;
+}
+
+.header .navbar {
+    padding: 0.5rem 0;
+}
+
+.top-section {
+    background: url(../images/Bg\ Image.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Card Animations*/
+.card img {
+    transition: all .1s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.sign-in {
+    background: #FFCB15;
+    border-radius: 24px;
+}
+
+.hero-section {
+    margin-top: 200px;
+    padding: 1em 0 0 0;
+}
+
+.aboutus-sec .col {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-title {
+    margin: 6em;
+    margin-left: 6em;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.profile {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.shadow {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+}
+
+.events {
+    background: #F6F6F6;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.event-title {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.events .card {
+    border-radius: 20px;
+}
+
+.events .card .date {
+    color: #FFCB15;
+}
+
+.flexy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card .money {
+    background: #FFF;
+    color: #000;
+    width: 15%;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.card .desc {
+    color: #9C9C9C;
+}
+
+.booking {
+    background: url(../images/CTA\ Bg.png);
+}
+
+.booking-title {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px;
+    margin: 30px;
+    margin-top: 40px;
+}
+
+.album-title {
+    font-weight: bolder;
+}
+
+.latest-album .myCards {
+    margin-top: 40px;
+}
+
+.myCards .inbuilt {
+    margin-top: 200px;
+}
+
+.newsletter {
+    background: #FFCB15;
+    height: 300px;
+    margin: 120px;
+    border-radius: 20px;
+}
+
+.newsletter .subscribe {
+    color: #000;
+}
+
+.newsletter .subscribe-text {
+    margin-top: 75px;
+}
+
+.newsletter #button-addon2 {
+    background: #000;
+    margin-left: -3px;
+}
+
+.newsletter .myInput {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.newsletter .myInput input,
+#button-addon2 {
+    border-radius: 10px;
+}
+
+.gallery p {
+    color: #878787;
+    margin-bottom: 50px;
+}
+
+.gallery-images .myCards card {
+    width: 320px;
+}
+
+.gallery-images .card {
+    border-radius: 20px;
+}
+
+.footer {
+    background: url(../images/Rectangle\ 47.png);
+    margin-top: 12px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.footer img {
+    padding: 8px;
+}
+
+.footer p {
+    color: #878787;
+}
+
+
+/* CSS MEDIA QUERIES FOR RESPONSIVENESS */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .top-section {
+        background: url(../images/Bg\ Image.png);
+        height: max-content;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .top-section .nav {
+        background: inherit;
+    }
+
+    .hero-section {
+        margin-top: 70px;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-section a {
+        margin: 12px;
+        margin-bottom: 80px;
+    }
+
+    .aboutus-sec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-title h2 {
+        text-align: center;
+    }
+
+    .parent,
+    .profile-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parent img {
+        width: 320px;
+    }
+
+    .newsletter {
+        background: #FFCB15;
+        height: max-content;
+        width: max-content;
+        margin: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+    }
+
+    .newsletter .myInput {
+        width: fit-content;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .myCards .inbuilt {
+        margin-top: 300px !important;
+    }
+
+    .booking-title {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 12px;
+        margin: 30px;
+        margin-top: 40px;
+    }
+
+    .booking-title a {
+        width: max-content;
+        margin-top: 40px;
+        margin-left: 9px;
+        padding: auto;
+    }
+
+    .card .money {
+        width: max-content;
+    }
+
+    .events a {
+        width: max-content;
+    }
+
+    .profile-title {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .aboutus-sec .col {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .flexy .parent img, .shadow, .profile {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .shadow {
+        position: absolute;
+        top: 30px;
+        left: 1px;
+    }
+
+    .profile {
+        position: relative;
+        top: 0;
+        left: 4px;
+    }
+
+    .parent .profile {
+        width: 320px;
+    }
+
+    .parent .shadow {
+        width: 320px;
+    }
+
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    .top-section {
+        background: url(../images/Bg\ Image.png);
+        height: max-content;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .top-section .nav {
+        background: inherit;
+    }
+
+    .hero-section {
+        margin-top: 70px;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-section a {
+        margin: 12px;
+        margin-bottom: 80px;
+    }
+
+    .aboutus-sec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-title h2 {
+        text-align: center;
+    }
+
+    .parent,
+    .profile-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parent img {
+        width: 320px;
+    }
+
+    .newsletter {
+        background: #FFCB15;
+        height: max-content;
+        width: max-content;
+        margin: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+    }
+
+    .newsletter .myInput {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .myCards .inbuilt {
+        margin-top: 320px !important;
+    }
+
+    .booking-title {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 12px;
+        margin: 30px;
+        margin-top: 40px;
+    }
+
+    .booking-title a {
+        width: max-content;
+        margin-top: 40px;
+        margin-left: 9px;
+        padding: auto;
+    }
+
+    .card .money {
+        width: max-content;
+    }
+
+    .events a {
+        width: max-content;
+    }
+
+    .profile-title {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .aboutus-sec .col {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .flexy .parent img,
+    .shadow,
+    .profile {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .shadow {
+        position: absolute;
+        top: 30px;
+        left: 1px;
+    }
+
+    .profile {
+        position: relative;
+        top: 0;
+        left: 4px;
+    }
+
+    .parent .profile {
+        width: 350px;
+    }
+
+    .parent .shadow {
+        width: 350px;
+    }
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+     .top-section {
+         background: url(../images/Bg\ Image.png);
+         height: max-content;
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover;
+     }
+
+     .top-section .nav {
+         background: inherit;
+     }
+
+     .hero-section {
+         margin-top: 70px;
+         padding: auto;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+     }
+
+     .hero-section a {
+         margin: 12px;
+         margin-bottom: 80px;
+     }
+
+     .aboutus-sec {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .profile-title h2 {
+         text-align: center;
+     }
+
+     .parent,
+     .profile-title {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .parent img {
+         width: 320px;
+     }
+
+     .newsletter {
+         background: #FFCB15;
+         height: max-content;
+         width: max-content;
+         margin: 120px;
+         margin-left: auto;
+         margin-right: auto;
+         border-radius: 20px;
+     }
+
+     .newsletter .myInput {
+         width: fit-content;
+         margin-bottom: 50px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     .myCards .inbuilt {
+         margin-top: 290px;
+     }
+
+     .booking-title {
+         display: flex;
+         justify-content: space-evenly;
+         padding: 12px;
+         margin: 30px;
+         margin-top: 40px;
+     }
+
+     .booking-title a {
+         width: max-content;
+         margin-top: 40px;
+         margin-left: 9px;
+         padding: auto;
+     }
+
+     .card .money {
+         width: max-content;
+     }
+
+     .events a {
+         width: max-content;
+     }
+
+     .profile-title {
+         margin: auto;
+         margin-top: 20px;
+     }
+
+     .aboutus-sec .col {
+         display: flex;
+         flex-direction: column !important;
+     }
+
+     .flexy .parent img,
+     .shadow,
+     .profile {
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     .shadow {
+         position: absolute;
+         top: 30px;
+         left: 1px;
+     }
+
+     .profile {
+         position: relative;
+         top: 0;
+         left: 4px;
+     }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    .top-section {
+        background: url(../images/Bg\ Image.png);
+        height: max-content;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .top-section .nav {
+        background: inherit;
+    }
+
+    .hero-section {
+        margin-top: 70px;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-section a {
+        margin: 12px;
+        margin-bottom: 80px;
+    }
+
+    .aboutus-sec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-title h2 {
+        text-align: center;
+    }
+
+    .parent,
+    .profile-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parent img {
+        width: 280px;
+    }
+
+    .newsletter {
+        background: #FFCB15;
+        height: max-content;
+        width: fit-content;
+        margin: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+    }
+
+    .newsletter .myInput {
+        width: fit-content;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .myCards .inbuilt {
+        margin-top: 250px;
+    }
+
+    .booking-title {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 12px;
+        margin: 30px;
+        margin-top: 40px;
+    }
+
+    .booking-title a {
+        width: max-content;
+        margin-top: 40px;
+        margin-left: 9px;
+        padding: auto;
+    }
+
+    .card .money {
+        width: max-content;
+    }
+
+    .events a {
+        width: max-content;
+    }
+
+    .profile-title {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .aboutus-sec .col {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .flexy .parent img,
+    .shadow,
+    .profile {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .shadow {
+        position: absolute;
+        top: 30px;
+        left: 1px;
+    }
+
+    .profile {
+        position: relative;
+        top: 0;
+        left: 4px;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+    .top-section {
+        background: url(../images/Bg\ Image.png);
+        height: max-content;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .top-section .nav {
+        background: inherit;
+    }
+
+    .hero-section {
+        margin-top: 70px;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-section a {
+        margin: 12px;
+        margin-bottom: 80px;
+    }
+
+    .aboutus-sec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-title h2 {
+        text-align: center;
+    }
+
+    .parent,
+    .profile-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parent img {
+        width: 320px;
+    }
+
+    .newsletter {
+        background: #FFCB15;
+        height: max-content;
+        width: 100%;
+        margin: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+    }
+
+    .newsletter .myInput {
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+    .myCards .inbuilt {
+        margin-top: 85px;
+    }
+
+    .booking-title {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 12px;
+        margin: 30px;
+        margin-top: 40px;
+    }
+
+    .booking-title a {
+        width: max-content;
+        margin-top: 40px;
+        margin-left: 9px;
+        padding: auto;
+    }
+
+    .card .money {
+        width: max-content;
+    }
+
+    .events a {
+        width: max-content;
+    }
+
+    .profile-title {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .aboutus-sec .col {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .flexy .parent img,
+    .shadow,
+    .profile {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .shadow {
+        position: absolute;
+        top: 30px;
+        left: 150px;
+    }
+
+    .profile {
+        position: relative;
+        top: 0;
+        left: 4px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .top-section {
+        background: url(../images/Bg\ Image.png);
+        height: max-content;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .top-section .nav {
+        background: inherit;
+    }
+
+    .hero-section {
+        margin-top: 70px;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-section a {
+        margin: 12px;
+        margin-bottom: 80px;
+    }
+
+    .aboutus-sec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-title h2 {
+        text-align: center;
+    }
+
+    .parent,
+    .profile-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parent img {
+        width: 320px;
+    }
+
+    .newsletter {
+        background: #FFCB15;
+        height: max-content;
+        width: 100%;
+        margin: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+    }
+
+    .newsletter .myInput {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+    .myCards .inbuilt {
+        margin-top: 130px;
+    }
+
+    .booking-title {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 12px;
+        margin: 30px;
+        margin-top: 40px;
+    }
+
+    .booking-title a {
+        width: max-content;
+        margin-top: 40px;
+        margin-left: 9px;
+        padding: auto;
+    }
+
+    .card .money {
+        width: max-content;
+    }
+
+    .events a {
+        width: max-content;
+    }
+
+    .profile-title {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .aboutus-sec .col {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .flexy .parent img,
+    .shadow,
+    .profile {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .shadow {
+        position: absolute;
+        top: 30px;
+        left: 280px;
+    }
+
+    .profile {
+        position: relative;
+        top: 0;
+        left: 4px;
+    }
+}
