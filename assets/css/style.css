@@ -55,7 +55,7 @@ btn {
 }
 
 .top-section {
-    background: url(../images/Bg\ Image.png);
+    background: url(../images/background.png);
     height: 800px;
     background-repeat: no-repeat;
     background-position: center;
@@ -150,7 +150,7 @@ btn {
 }
 
 .booking {
-    background: url(../images/CTA\ Bg.png);
+    background: url(../images/calltoaction.png);
 }
 
 .booking-title {
@@ -217,7 +217,7 @@ btn {
 }
 
 .footer {
-    background: url(../images/Rectangle\ 47.png);
+    background: url(../images/footer.png);
     margin-top: 12px;
 }
 
@@ -242,7 +242,7 @@ btn {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
 
     .top-section {
-        background: url(../images/Bg\ Image.png);
+        background: url(../images/background.png);
         height: max-content;
         background-repeat: no-repeat;
         background-position: center;
@@ -370,7 +370,7 @@ btn {
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
     .top-section {
-        background: url(../images/Bg\ Image.png);
+        background: url(../images/background.png);
         height: max-content;
         background-repeat: no-repeat;
         background-position: center;
@@ -498,7 +498,7 @@ btn {
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
      .top-section {
-         background: url(../images/Bg\ Image.png);
+         background: url(../images/background.png);
          height: max-content;
          background-repeat: no-repeat;
          background-position: center;
@@ -619,7 +619,7 @@ btn {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
     .top-section {
-        background: url(../images/Bg\ Image.png);
+        background: url(../images/background.png);
         height: max-content;
         background-repeat: no-repeat;
         background-position: center;
@@ -740,7 +740,7 @@ btn {
 
 @media (min-device-width: 768px) and (max-device-width: 1024px) {
     .top-section {
-        background: url(../images/Bg\ Image.png);
+        background: url(../images/background.png);
         height: max-content;
         background-repeat: no-repeat;
         background-position: center;
@@ -861,7 +861,7 @@ btn {
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
     .top-section {
-        background: url(../images/Bg\ Image.png);
+        background: url(../images/background.png);
         height: max-content;
         background-repeat: no-repeat;
         background-position: center;
